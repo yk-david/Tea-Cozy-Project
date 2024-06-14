@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* HEADER */
+header {
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  position: relative;
+}
+
+.logo {
+  height: 50px; 
+  margin-left: 10px;
+}
+
+header ul {
+  display: flex;
+  gap: 20px;
+}
+
+.menu {
+  list-style: none;
+  text-decoration: underline;
+}
+
+.menu li::last-child {
+  margin-right: 10px;
+  /* I need to put some space at the right of the menu */
+}
