@@ -19,7 +19,7 @@ header {
 }
 
 .logo {
-  height: 50px; 
+  height: 50px;
   margin-left: 10px;
 }
 
@@ -35,5 +35,21 @@ header ul {
 
 .menu li::last-child {
   margin-right: 10px;
-  /* I need to put some space at the right of the menu */
+  /* How do I put a right-margin? */
 }
+
+/* OUR MISSION Section */
+.mission {
+  width: 1200px;
+}
+
+.mission-heading {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
